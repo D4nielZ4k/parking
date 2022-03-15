@@ -29,4 +29,11 @@ public class ActionValidationImp {
             return false;
         }
     }
+
+    public void finish(final Action action){
+        if(action.getCar().getDriveModel().equals("el")){
+            action.getParking().setSlots(action.getParking().getSlots()-1);
+        }
+        action.getParking().setSlots(action.getParking().getSlots()-1);
+    }
 }
