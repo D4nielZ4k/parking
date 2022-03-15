@@ -1,6 +1,5 @@
 package com.parking.repository;
 
-import com.parking.database.Car;
 import com.parking.database.Parking;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

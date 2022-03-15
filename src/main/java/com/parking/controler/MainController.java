@@ -1,7 +1,6 @@
 package com.parking.controler;
 
 import com.parking.configure.service.ActionService;
-import com.parking.model.ParkingDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

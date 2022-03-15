@@ -1,11 +1,8 @@
 package com.parking.configure.service;
 
 
-import com.parking.database.Car;
 import com.parking.database.Parking;
-import com.parking.model.CarDto;
 import com.parking.model.ParkingDto;
-import com.parking.repository.CarRepository;
 import com.parking.repository.ParkingRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
